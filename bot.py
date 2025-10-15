@@ -77,7 +77,7 @@ def main():
     application.add_handler(CommandHandler("add", bot.add_task))
     application.add_handler(CommandHandler("list", bot.list_tasks))
 
-    application.run_polling(
+    application.run_polling()
 
 
 if __name__ == "__main__":
